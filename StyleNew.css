@@ -1,0 +1,213 @@
+html{
+    font-family: 'Helvetica', sans-serif ;
+    margin-left: 0;
+    margin-right: 0;
+    overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+}
+header{
+    background: rgb(71, 184, 177);
+   
+}
+.kids-logo{
+    height: 35px;
+}
+.header-nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 35px;
+}
+.header-nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+main{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.section-one{
+    background-color: rgb(255, 180, 2);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.section-one-text{
+width: 45%;
+}
+.section-one h2{
+    margin-bottom: 10px;
+}
+.first-circle{
+        margin-top: 50px;
+        margin-left: 50px;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        display: inline-block;
+        border: 7px solid rgb(71, 184, 177); 
+}
+.first-circle-img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.second-circle{
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 7px solid rgb(71, 184, 177); 
+}
+.second-circle-img{
+width: 150px;
+height: 150px;
+object-fit: cover;
+border-radius: 50%;
+}
+.section-two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 100px;
+align-content: flex-start;
+
+}
+.first-circle-text{
+    width:30%;
+    text-align: left;
+    padding-top: 30px;
+}
+.h4{
+    color: rgb(177, 177, 177);
+}
+h3{
+    color:  rgb(71, 184, 177);
+}
+.second-circle-text{
+    width: 30%;
+    text-align: left;
+    padding-top: 30px;
+}
+.section-two-second-img{
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 7px solid rgb(71, 184, 177); 
+}
+.section-two-second-img1, .section-two-second-img2, .section-two-second-img3, .section-two-second-img4{
+width: 150px;
+height: 150px;
+object-fit: cover;
+border-radius: 50%;
+}
+.section-two-second{
+    display: flex;
+    justify-content: space-evenly;
+}
+h3{
+    display: flex;
+    width:300px;
+    margin-left: -20px;
+}
+.small{
+    margin-left: 5px;
+}
+.final-section{
+    margin-top: 150px;
+    background-color: rgb(102, 185, 248);
+    color: white;
+    border-top: 10px solid rgb(146, 205, 251);
+    padding-bottom: 50px;
+}
+.final-section-text{
+    margin-top: 50px;
+    
+}
+.final-section-text p{
+    display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: space-around;
+   margin-left: 20.5%;
+   margin-right: 20.5%;
+}
+input{
+    border-radius: 3px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    
+}
+::placeholder{
+    color: white;
+    padding-left: 3px;
+}
+button{
+    text-transform: uppercase;
+    color: white;
+    background: rgb(255,145, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid rgb(255,145, 0);
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    cursor: pointer;
+    font-weight: bold;
+}
+footer a{
+text-decoration: none;
+color: white;
+}
+footer h4{
+    color: white;
+    text-transform: uppercase;
+}
+footer{
+    background-color: rgb(86, 86, 86);
+    border-top: 10px solid rgb(137, 137, 137) ;
+}
+.footer-section{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 0.6;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+.fa-brands{
+    color: white;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
